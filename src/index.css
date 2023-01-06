@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  overflow-x: hidden;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+li{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+input,textarea,button{
+  font: inherit;
+}
+
+.editor{
+  /* border-radius: 10px !important; */
+  display: block;
+}
+
+.language-dropdown{
+  font-size: 1.3rem;
+  min-width: fit-content;
+  cursor: pointer;
+}
+
+.login-container{
+  width: 100vw;
+  min-height: 100vh;
+  background:url(./assets/WavesBg.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  place-content: center;
+}
