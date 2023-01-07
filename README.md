@@ -2,14 +2,14 @@
 
 ## Introduction
 
-The Realtime Code Editor is a web-based code editor that allows multiple users to edit the same codebase simultaneously in realtime. It is built with React.js, Node.js, Socket.IO, and Tailwind CSS. You can find the source code for the project on GitHub at https://github.com/Devil5614737/realtime-code-editor and a live demo is available at https://musical-khapse-5244f7.netlify.app/.
+The Realtime Code Editor is a web-based code editor that allows multiple users to edit the same codebase simultaneously in realtime. It is built with React.js, Node.js, Socket.IO, and Tailwind CSS. You can find the Live Demo  at https://musical-khapse-5244f7.netlify.app/.
 
 ## Features
 
 - Collaborative editing: Multiple users can edit the same codebase at the same time and see each other's changes in realtime.
 - Syntax highlighting: The editor supports syntax highlighting for multiple programming languages.
-- File management: Users can create, rename, and delete files and directories within the codebase.
 - Live preview: Changes to the code are reflected in a live preview window.
+-Supports mulitiple languages
 
 ## Installation
 
@@ -40,16 +40,10 @@ The Realtime Code Editor can be customized by creating a `.env` file in the root
 
 ## API Reference
 
-The Realtime Code Editor has a simple API with the following endpoints:
-
-- `GET /api/files`: Returns a list of all files and directories in the codebase.
-- `POST /api/files`: Creates a new file or directory.
-- `PATCH /api/files/:path`: Updates the contents of a file or the name of a file or directory.
-- `DELETE /api/files/:path`: Deletes a file or directory.
 
 ## Contributing
 
-We welcome contributions to the Realtime Code Editor. If you would like to submit a bug fix or new feature, please follow these steps:
+If you would like to submit a bug fix or new feature, please follow these steps:
 
 1. Fork the repository.
 2. Create a new branch for your changes.
