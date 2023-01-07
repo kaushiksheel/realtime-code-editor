@@ -9,7 +9,7 @@ import { toast, Toaster } from "react-hot-toast";
 
 
 
-const socket = io("https://musical-khapse-5244f7.netlify.app");
+const socket = io("https://realtime-code-editor-2wsn.onrender.com");
 
 export const EditorComp = () => {
   const { code, setCode, setJoinedUsers,selectedLanguage } = useContext(PostContext);
