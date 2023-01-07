@@ -16,7 +16,7 @@ export const Executor = () => {
   const handleCompile = () => {
     setLoading(true);
     const formData = {
-      language_id: selectedLanguage?.id,
+      language_id: selectedLanguage?.id|| 63,
       source_code: btoa(code),
       
     };
