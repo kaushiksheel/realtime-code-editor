@@ -8,7 +8,8 @@ import { toast, Toaster } from "react-hot-toast";
 
 
 
-const socket = io("http://localhost:4000");
+
+const socket = io("https://musical-khapse-5244f7.netlify.app");
 
 export const EditorComp = () => {
   const { code, setCode, setJoinedUsers,selectedLanguage } = useContext(PostContext);
